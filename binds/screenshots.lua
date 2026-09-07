@@ -1,7 +1,9 @@
+local variables = require("../config/variables")
+
 --======================================--
 --           Е**ЧИЕ СКРИНШОТЫ           --
 --        Сделаль через нокталию        --
 --======================================--
 
-hl.bind("PRINT", hl.dsp.exec_cmd("noctalia msg screenshot-fullscreen")) -- Скриншот всего экрана
-hl.bind("SUPER + Print", hl.dsp.exec_cmd('noctalia msg screenshot-region')) -- Скриншот области
+hl.bind("PRINT", hl.dsp.exec_cmd(variables.screenshot_full)) -- Скриншот всего экрана
+hl.bind("SUPER + Print", hl.dsp.exec_cmd(variables.screenshot_area)) -- Скриншот области

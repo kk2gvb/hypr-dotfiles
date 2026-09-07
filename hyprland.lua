@@ -4,7 +4,7 @@
 
 require("config.monitors")
 require("config.workspaces")
-require("config.programs")
+require("config.variables")
 require("config.environment")
 require("config.autostart")
 require("config.general")
@@ -31,3 +31,4 @@ require("binds.multimedia")
 
 require("rules.applications")
 require("rules.general")
+

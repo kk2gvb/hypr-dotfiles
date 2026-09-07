@@ -82,3 +82,15 @@ hl.window_rule({
 
     workspace = "3 silent",
 })
+
+
+-- Throne
+hl.window_rule({
+    name = "yandex-music-workspace",
+
+    match = {
+        class = "yandex-music",
+    },
+
+    workspace = "10 silent",
+})
