@@ -94,3 +94,13 @@ hl.window_rule({
 
     workspace = "10 silent",
 })
+
+hl.window_rule({
+    name = "discord-workspace",
+
+    match = {
+        class = "discord"
+    },
+
+    workspace = "4 silent",
+})
