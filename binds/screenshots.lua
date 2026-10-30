@@ -6,4 +6,4 @@ local variables = require("../config/variables")
 --======================================--
 
 hl.bind("PRINT", hl.dsp.exec_cmd(variables.screenshot_full)) -- Скриншот всего экрана
-hl.bind("SUPER + Print", hl.dsp.exec_cmd(variables.screenshot_area)) -- Скриншот области
+hl.bind("ALT + Print", hl.dsp.exec_cmd(variables.screenshot_area)) -- Скриншот области

@@ -1,35 +1,33 @@
 -- Lua modules share the Hyprland runtime environment; these are ordinary Lua
 -- values, not Hyprland configuration keywords.
 local programs = {
-    terminal = "alacritty",
-    file_manager = "nautilus",
-    browser = "chromium",
-    editor = "codium",
-    music = "yandex-music",
-    
-    launcher = "noctalia msg panel-toggle launcher",
-    control_center = "noctalia msg panel-toggle control-center",
+	terminal = "alacritty",
+	file_manager = "nautilus",
+	browser = "firefox",
+	editor = "codium",
+	music = "yandex-music",
 
-    volume_up = "noctalia msg volume-up",
-    volume_down = "noctalia msg volume-down",
-    volume_mute = "noctalia msg volume-mute",
+	launcher = "noctalia msg panel-toggle launcher",
+	control_center = "noctalia msg panel-toggle control-center",
 
-    media_next = "noctalia msg media next",
-    media_previous = "noctalia msg media previous",
-    media_toggle = "noctalia msg media toggle",
+	volume_up = "noctalia msg volume-up",
+	volume_down = "noctalia msg volume-down",
+	volume_mute = "noctalia msg volume-mute",
 
-    wallpaper_next = "noctalia msg wallpaper-next",
-    wallpaper_previous = "noctalia msg wallpaper-previous",
-    wallpaper_random = "noctalia msg wallpaper-random",
+	media_next = "noctalia msg media next",
+	media_previous = "noctalia msg media previous",
+	media_toggle = "noctalia msg media toggle",
 
-    logout = "noctalia msg session logout",
-    shutdown = "noctalia msg session shutdown",
-    lock = "noctalia msg session lock",
+	wallpaper_next = "noctalia msg wallpaper-next",
+	wallpaper_previous = "noctalia msg wallpaper-previous",
+	wallpaper_random = "noctalia msg wallpaper-random",
 
-    screenshot_full = "noctalia msg screenshot-fullscreen",
-    screenshot_area = "noctalia msg screenshot-region",
+	logout = "noctalia msg session logout",
+	shutdown = "noctalia msg session shutdown",
+	lock = "noctalia msg session lock",
 
-    control_center = "noctalia msg panel-toggle control-center"
+	screenshot_full = "noctalia msg screenshot-fullscreen",
+	screenshot_area = "noctalia msg screenshot-region",
 }
 
 return programs
